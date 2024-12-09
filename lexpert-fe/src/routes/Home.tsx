@@ -15,7 +15,7 @@ function Home() {
   if (isError) return <div>Error al cargar los datos.</div>;
 
   return (
-    <div className="w-full max-w-4xl">
+    <div className="w-full max-w-4xl py-8">
       {data && (
         <>
           <StepIndicator currentStep={step} totalSteps={3} />
